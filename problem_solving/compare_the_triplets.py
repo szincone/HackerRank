@@ -3,9 +3,7 @@
 import os
 import sys
 
-#
-# Complete the solve function below.
-#
+
 def solve(a0, a1, a2, b0, b1, b2):
     a_score = 0
     b_score = 0
