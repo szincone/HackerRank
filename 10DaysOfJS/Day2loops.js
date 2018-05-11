@@ -4,9 +4,7 @@
  */
 function vowelsAndConsonants(s) {
     var vowels = ['a','e','i','o','u']
-    var vowel_l = []
-    var consts = []
-    var s_list = []
+    var vowel_l = [], consts = [], s_list = []
     for (let x in s) {
         if (vowels.includes(s[x])) {
             vowel_l += s[x];
